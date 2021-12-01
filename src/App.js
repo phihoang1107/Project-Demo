@@ -17,6 +17,7 @@ function App() {
           const newJobs = [...prev, job]
           const jsonJobs = JSON.stringify(newJobs)
           localStorage.setItem('jobs', newJobs)
+          console.log('aloalo')
           return newJobs
         })
         setJob('')
